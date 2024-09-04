@@ -12,10 +12,14 @@ const Counter = () => {
     console.log(counter);
   };
   return (
-    <div className="container">
-      <div >
+    <div>
+      <h1 style={{textAlign:"center", marginTop:"100px"}}>My Counter App</h1>
+
+      <div className="container">
         <h1>{counter}</h1>
-        <button style={{marginLeft:"515px"}} onClick={increment}>Increment</button  >
+        <button style={{ marginLeft: "515px" }} onClick={increment}>
+          Increment
+        </button>
         <button onClick={decrement}>Decrement</button>
       </div>
     </div>
