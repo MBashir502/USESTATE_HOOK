@@ -5,8 +5,10 @@ const Counter = () => {
 
   const increment = () => {
     setCounter(counter + 1);
+
     console.log(counter);
   };
+  document.title = `counter value =${counter}`;
   const decrement = () => {
     setCounter(counter - 1);
     console.log(counter);
